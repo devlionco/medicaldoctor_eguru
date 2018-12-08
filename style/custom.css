@@ -1,0 +1,35 @@
+.mediaplugin.mediaplugin_videojs > div {
+	max-width: 60% !important;
+} 
+
+.video-controls  {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.video-controls button {
+	cursor: pointer;
+}
+
+.progress-bar {
+	width: 100%;
+margin-top: 10px;
+}
+
+.video-table-cell {
+opacity: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+        .mediaplugin.mediaplugin_videojs > div {
+                 max-width: 80% !important; 
+        } 
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+     	.mediaplugin.mediaplugin_videojs > div {
+       		 max-width: 100% !important; 
+	} 
+}
