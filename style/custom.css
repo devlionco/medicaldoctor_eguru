@@ -1,6 +1,6 @@
 .mediaplugin.mediaplugin_videojs > div {
 	max-width: 60% !important;
-} 
+}
 
 .video-controls  {
     margin-top: 20px;
@@ -22,14 +22,20 @@ opacity: 0;
 
 @media only screen and (max-width: 1200px) {
         .mediaplugin.mediaplugin_videojs > div {
-                 max-width: 80% !important; 
-        } 
+                 max-width: 80% !important;
+        }
 }
 
 
 
 @media only screen and (max-width: 1000px) {
      	.mediaplugin.mediaplugin_videojs > div {
-       		 max-width: 100% !important; 
-	} 
+       		 max-width: 100% !important;
+	}
+}
+
+/* add white shadow to logo */
+#footer .footer-desc .logo-footer a img,
+.header-logo a.navbar-brand img {
+	filter: drop-shadow(0px 0px 5px rgba(255,255,255,1));
 }
